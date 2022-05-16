@@ -10,11 +10,6 @@ body {
     font-size: 25px;
    
 }
-.img_me{
-    border-radius: 10em;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 5);
-
-}
 
 .container-about{
     color: #024f94;
@@ -45,6 +40,11 @@ body {
     background: gainsboro;
 }
 
+#twit{
+   background-color: #85aac5;
+    height: 15px;
+    width: 15px;
+}
 
 @media only screen and (max-width: 768px) {
     body {
@@ -62,12 +62,13 @@ body {
 
     a {
         text-decoration: none;
-        color: #85aac5;
+        
     }
 
     .navbar {
         list-style: none;
         display: none;
+        color: #85aac5;
     }
 
     #navbar-title {
@@ -89,7 +90,7 @@ body {
       nav h2 {
         border-radius: 2px;
         position: relative;
-        background: #efd091;
+        background: #85aac5;
         height: 40px;
         color: ivory;
         font-weight: 200;
@@ -138,7 +139,7 @@ body {
         line-height: 1.5;
         width: 100%;
         margin: 0;
-        background: #efd091;
+        background: #85aac5;
         box-shadow: 2px 2px 10px -2px rgba(0,0,0,.35);
       }
       
@@ -148,7 +149,7 @@ body {
       
       nav ul a {
         display: block;
-        color: ivory;
+        color: #efd091;
         font-size: 18px;
         font-weight: 200;
         text-decoration: none;
@@ -277,8 +278,9 @@ body {
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 700px) {
     header {
+        color: #85aac5;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -287,7 +289,7 @@ body {
 
     a {
         text-decoration: none;
-        color: black;
+        color: #85aac5;
     }
 
     a:hover {
@@ -424,7 +426,7 @@ body {
         margin-top: 5px;
         height: 0;
         width: 15vmin;
-        border-top: 3px solid black;
+        border-top: 3px solid #efd091;
     }
 
     .socials {
@@ -435,6 +437,7 @@ body {
         border-top: 12px solid transparent;
         margin: 12px;
         width: 30px;
+        color: #85aac5;
     }
 
     #socials-logo:hover {
@@ -582,102 +585,46 @@ body {
         letter-spacing: 7px;
         text-align: center;
     }
-
-    .email {
-        float: right;
-        width: 45%;
-    }
-
-    input[type='text'],
-    [type='email'],
-    textarea {
-        background: none;
-        border: none;
-        border-bottom: solid 2px black;
-        color: black;
-        font-size: 1.000em;
-        font-weight: 400;
-        letter-spacing: 1px;
-        margin: 0em 0 1.875em 0;
-        padding: 0 0 0.875em 0;
-        width: 100%;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-        -o-box-sizing: border-box;
-        box-sizing: border-box;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        -ms-transition: all 0.3s;
-        -o-transition: all 0.3s;
-        transition: all 0.3s;
-    }
-
-    input[type='text']:focus,
-    [type='email']:focus,
-    textarea:focus {
-        outline: none;
-        padding: 0 0 0.875em 0;
-    }
-
-    .message {
-        float: none;
-    }
-
-    .name {
-        float: left;
-        width: 45%;
-    }
-
-    .subject {
-        width: 100%;
-    }
-
-    textarea {
-        line-height: 150%;
-        height: 150px;
-        resize: none;
-        width: 100%;
-    }
-
-    ::-webkit-input-placeholder {
-        color: black;
-    }
-
-    #form_button {
-        background: none;
-        border: solid 2px black;
-        color: black;
-        cursor: pointer;
-        display: inline-block;
-        font-family: Fira Mono, sans-serif;
-        font-size: 14px;
-        font-weight: bold;
-        outline: none;
-        padding: 20px 35px;
-        text-transform: uppercase;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        -ms-transition: all 0.3s;
-        -o-transition: all 0.3s;
-        transition: all 0.3s;
-    }
-
-    .submit {
-        text-align: center;
-    }
-
-    #form_button:hover {
-        background: black;
-        color: #ffffff;
-    }
-
-    .resources-page {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10vmin;
-        flex-direction: column;
-    }
+    
 }
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 2em;
+    justify-content: center;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

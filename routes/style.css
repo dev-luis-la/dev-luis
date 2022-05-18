@@ -32,13 +32,6 @@ body {
     color: #222222;
 }
 
-#img{
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
-
 ::selection {
     background: gainsboro;
 }

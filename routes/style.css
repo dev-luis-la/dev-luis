@@ -4,6 +4,7 @@ body {
     font-family: Fira Mono;
     color: #85aac5;
     background-image: linear-gradient( 92.7deg,  rgba(245,212,212,1) 8.5%, rgba(252,251,224,1) 90.2% );
+    overflow: hidden;
 }
 .container{
     text-align: center;
@@ -31,6 +32,38 @@ body {
     background: transparent;
     color: #222222;
 }
+ 
+  .star0 {
+    height: 1px;
+    width: 1px;
+    opacity: 1;
+    position: absolute;
+  }
+  
+  .star1 {
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+  }
+  
+  .star2 {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+  }
+  
+  .star3 {
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+  }
+  
 
 ::selection {
     background: gainsboro;

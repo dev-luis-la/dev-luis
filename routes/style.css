@@ -10,7 +10,7 @@ body {
     font-size: 25px;
    
 }
-
+  
 .container-about{
     color: #024f94;
     padding-top: 2em;
@@ -31,9 +31,12 @@ body {
     background: transparent;
     color: #222222;
 }
-.contact-button:hover {
-    border-color: #85aac5;
-    background: #f7f7f7;
+
+#img{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 ::selection {
@@ -197,7 +200,7 @@ body {
         position: relative;
         margin-top: 5px;
         height: 0;
-        width: 15vmin;
+        width: 20vmin;
         border-top: 3px solid black;
     }
 
@@ -425,7 +428,7 @@ body {
         position: relative;
         margin-top: 5px;
         height: 0;
-        width: 15vmin;
+        width: 20vmin;
         border-top: 3px solid #efd091;
     }
 
@@ -602,13 +605,15 @@ body {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 50%;
-    padding: 0 4px;
+    padding: 20px 15px;
+    
   }
   
   .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    border-radius: 2em;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */

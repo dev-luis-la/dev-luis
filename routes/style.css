@@ -270,7 +270,7 @@ body {
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
-        width: 60vw ;
+        width: 60vmin;
       }
     
     .stack-btn:hover,

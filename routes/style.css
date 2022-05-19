@@ -227,7 +227,7 @@ body {
         margin-top: 5px;
         height: 0;
         width: 20vmin;
-        border-top: 3px solid black;
+        border-top: 3px solid #efd091;
     }
 
     #socials-logo {
@@ -645,7 +645,7 @@ body {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-    border-radius: 2em;
+    border-radius: 1em;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */

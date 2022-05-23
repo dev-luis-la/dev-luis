@@ -13,7 +13,7 @@ for (var i = 0; i < starCount; ++i) {
   var star = document.createElement("div");
   var speed = 1000 * (Math.random() * maxTime + 1);
   star.setAttribute("class", "star" + (3 - Math.floor(speed / 1000 / 8)));
-  star.style.backgroundColor = "#85aac5";
+  star.style.backgroundColor = "#ffffff";
 
   universe.appendChild(star);
   star.animate(

@@ -22,8 +22,11 @@ body {
     --card-height: 65vh;
     --card-width: calc(var(--card-height) / 1.5);
   }
+  
+  
+
   .card {
-    background: #030303;
+    background: #191c29;
     width: var(--card-width);
     height: var(--card-height);
     padding: 3px;
@@ -51,7 +54,7 @@ body {
   
   .card::before {
     content: "";
-    width: 109%;
+    width: 104%;
     height: 102%;
     border-radius: 8px;
     background-image: linear-gradient(

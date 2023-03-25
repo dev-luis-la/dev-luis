@@ -19,8 +19,8 @@ body {
   }
   
   :root {
-    --card-height: 65vh;
-    --card-width: calc(var(--card-height) / 0.3);
+    --card-height: 62vh;
+    --card-width: calc(var(--card-height) / 0.5);
   }
   
 /*   

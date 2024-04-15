@@ -3,7 +3,7 @@
 body {
     /* font-family: Fira Mono; */
     color: #FFE5B4;
-    background-color: #FCF5E5;
+    background-color: #FFC300;
     overflow: auto;
 }
 .container{
@@ -13,7 +13,6 @@ body {
 }
 .title1{
     cursor:pointer;
-    size: 1000px;
     
 }
 .container-about{

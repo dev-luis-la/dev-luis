@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 
 body {
-    font-family: Fira Mono;
+    /* font-family: Fira Mono; */
+    .shadows-into light-regular {
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
     color: #ffffff;
-    background-color: #e1eae3;
+    background-color: #FCF5E5;
     overflow: auto;
 }
 .container{
@@ -37,7 +43,7 @@ body {
    */
   
   .card {
-    background: #030303;
+    /* background: #030303; */
     width: var(--card-width);
     height: var(--card-height);
     padding: 3px;

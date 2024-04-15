@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 
 body {
-    font-family: Fira Mono;
+    /* font-family: Fira Mono; */
     color: #FFE5B4;
     background-color: #FCF5E5;
     overflow: auto;
@@ -10,6 +10,13 @@ body {
     text-align: center;
     font-size: 25px;
    
+}
+.title1{
+    font-size: large;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 .container-about{
     color: #ffffff;
@@ -77,7 +84,7 @@ body {
     }
 
     header {
-        background: #adabac;
+        /* background: #; */
         height: 12vmin;
         display: flex;
         justify-content: center;
@@ -92,11 +99,10 @@ body {
     .navbar {
         list-style: none;
         display: none;
-        color: #7b7b7b;
     }
 
     #navbar-title {
-        color: white;
+        color: orange;
     }
 
     .toggle-nav {
@@ -192,9 +198,6 @@ body {
         padding-bottom: 2rem;
         box-sizing: border-box;
     }
-
-
-
 
     @keyframes typing {
         from {

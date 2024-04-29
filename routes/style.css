@@ -74,7 +74,7 @@ body {
 
 
   
-
+/* this one is for the small displays */
 @media only screen and (max-width: 768px) {
     body {
         margin: 0;
@@ -320,7 +320,7 @@ body {
 }
 
 
-
+/* may index in laptop */
 @media only screen and (min-width: 700px) {
     header {
         color: #85aac5;
@@ -328,6 +328,7 @@ body {
         justify-content: space-between;
         align-items: center;
         font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     a {
@@ -353,6 +354,7 @@ body {
     .navbar {
         list-style: none;
         display: flex;
+        color: #FFE5B4;
     }
 
     li {

@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
 
 body {
-    /* font-family: Fira Mono; */
     color: #FFE5B4;
     background-color: #FFBD59;
     overflow: auto;
 }
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .container{
     text-align: center;
     font-size: 25px;

@@ -323,7 +323,7 @@ body {
 /* may index in laptop */
 @media only screen and (min-width: 700px) {
     header {
-        color: #85aac5;
+        background-color: #222222;
         display: flex;
         justify-content: space-between;
         align-items: center;

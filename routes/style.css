@@ -324,7 +324,7 @@ body {
 @media only screen and (min-width: 700px) {
     header {
         background-color: #222222;
-        display: unset ;
+        display: flex ;
         justify-content: space-between;
         align-items: center;
         font-size: 25px;

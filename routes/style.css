@@ -16,7 +16,6 @@ body {
 }
 .title1{
     cursor:pointer;
-    font-size: large;
     
 }
 .container-about{
@@ -435,21 +434,10 @@ body {
     .presentation {
         display: flex;
         flex-direction: column;
+        font-size: larger;
         justify-content: center;
         align-items: center;
     }
-    /* .salute {
-        position: relative;
-        width: 12ch;
-        margin-top: 2vmin;
-        font-size: 11vmin;
-        font-weight: 400;
-        margin-bottom: 0;
-        animation: typing 2s steps(12), blink .5s step-end infinite alternate;
-        white-space: nowrap;
-        overflow: hidden;
-        border-right: 3px solid;
-    } */
 
     @keyframes typing {
         from {

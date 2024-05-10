@@ -3,8 +3,8 @@
 body {
     color: #FFE5B4;
     background-image: url(../imgs/collage2.jpg);
-    /* background-repeat: no-repeat; */
-    overflow: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
   

@@ -5,6 +5,7 @@ body {
     background-image: url(../imgs/collage2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
   

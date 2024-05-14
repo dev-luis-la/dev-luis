@@ -1,7 +1,10 @@
-.wrapper {
-    display: grid;
+
+body{
     background-image: url(../imgs/Luis\ Lopez-2.jpg);
     background-size: cover;
+}
+.wrapper {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);

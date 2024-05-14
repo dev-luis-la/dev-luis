@@ -1,6 +1,7 @@
 .wrapper {
     display: grid;
     background-image: url(../imgs/Luis\ Lopez-2.jpg);
+    background-size: cover;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);

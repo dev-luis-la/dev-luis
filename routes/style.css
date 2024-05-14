@@ -66,7 +66,7 @@ h1{
 
   .peach1{
     size: 500px;
-    align-self: flex-start;
+    float: left;
     justify-content: left;
   }
 

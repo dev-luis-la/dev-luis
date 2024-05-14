@@ -29,27 +29,27 @@
     grid-column: 3;
     grid-row: 4;
   }
-  .one {
-    grid-column: 1 / 3;
+  .seven{
+    grid-column: 1 / 4;
     grid-row: 1;
   }
-  .two {
+  .eight{
     grid-column: 2 / 4;
     grid-row: 1 / 3;
   }
-  .three {
+  .nine {
     grid-column: 1;
     grid-row: 2 / 5;
   }
-  .four {
+  .ten {
     grid-column: 3;
     grid-row: 3;
   }
-  .five {
+  .eleven{
     grid-column: 2;
     grid-row: 4;
   }
-  .six {
+  .tweleve{
     grid-column: 3;
     grid-row: 4;
   }

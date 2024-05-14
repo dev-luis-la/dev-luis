@@ -4,6 +4,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

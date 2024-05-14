@@ -2,8 +2,7 @@
 
 body {
     color: #FFE5B4;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     image-rendering: -webkit-optimize-contrast;
 }
 h1{
@@ -683,6 +682,8 @@ h1{
     display: grid;
     grid-template-columns: auto auto auto;
     background-image: url(../imgs/collage2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-color: #2196F3; */
     padding: 10px;
   }

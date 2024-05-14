@@ -683,7 +683,6 @@ h1{
     grid-template-columns: auto auto auto;
     background-image: url(../imgs/collage2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     /* background-color: #2196F3; */
     padding: 10px;
   }

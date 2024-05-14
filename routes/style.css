@@ -57,7 +57,12 @@ body{
     grid-column: 5;
     grid-row: 6;
   }
-  
+  /* imgs sizez */
+
+  .peach1{
+    size: 500px;
+    justify-content: left;
+  }
 
   /* styles for desktop devices */
 @media only screen and (min-width: 992px) {
